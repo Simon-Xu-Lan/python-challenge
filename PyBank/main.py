@@ -38,5 +38,7 @@ with open(file_path, "r") as csv_file:
   print(total_profit_loss)
   print(greatest_profit_decrease)
   print(greatest_profit_increase)
-  print(f"{total_change / (total_month - 1)}")
+  # print(f'{total_month}')
+  print(f'{(total_change / (total_month - 1))}')
+
     
